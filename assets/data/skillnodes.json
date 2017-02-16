@@ -1,0 +1,15 @@
+{
+    "maxX" : [-1, 1],
+    "maxY" : [-1, 2],
+    "data" : [
+        {"id":0, "name":"Basic Skill",          "pos":[0, 0],   "parents":[],   "sprite":"assets/images/placeholder.png"},
+        {"id":1, "name":"Advanced Skill",       "pos":[0, 1],   "parents":[0],  "sprite":"assets/images/placeholder.png"},
+        {"id":2, "name":"Alternative Skill",    "pos":[0, -1],  "parents":[0],  "sprite":"assets/images/placeholder.png"},
+        {"id":3, "name":"Alt#2 Skill",          "pos":[-1, -1], "parents":[2],  "sprite":"assets/images/placeholder.png"},
+        {"id":4, "name":"Alt#3 Skill",          "pos":[1, -1],  "parents":[2],  "sprite":"assets/images/placeholder.png"},
+        {"id":5, "name":"Apprentice Skill",     "pos":[1, 2],   "parents":[1],  "sprite":"assets/images/placeholder.png"},
+        {"id":6, "name":"Master Skill",         "pos":[-1, 2],  "parents":[1],  "sprite":"assets/images/placeholder.png"},
+        {"id":7, "name":"No name",              "pos":[-1, 3],  "parents":[6],  "sprite":"assets/images/placeholder.png"},
+        {"id":8, "name":"No name",              "pos":[-1, 4],  "parents":[7],  "sprite":"assets/images/placeholder.png"}
+    ]
+}
